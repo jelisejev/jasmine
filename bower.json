@@ -1,0 +1,19 @@
+{
+  "name": "jasmine-book",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jelisejev/jasmine-book",
+  "authors": [
+    "Pavels Jelisejevs <jelisejev.p@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
