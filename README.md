@@ -5,14 +5,14 @@ vanilla Javascript and some of the frameworks.
 
 ## Vanilla Javascript
 
-  * (Timeouts)[examples/vanilla/TimeoutSpec.js]
+- (Timeouts)[examples/vanilla/TimeoutSpec.js]
 
 ## jQuery
 
-  * (Animations)[examples/jquery/AnimationSpec.js]
-  * (Element dimensions)[examples/jquery/DimensionSpec.js]
-  * (Element visibility)[examples/jquery/VisibleSelectorSpec.js]
+- (Animations)[examples/jquery/AnimationSpec.js]
+- (Element dimensions)[examples/jquery/DimensionSpec.js]
+- (Element visibility)[examples/jquery/VisibleSelectorSpec.js]
 
 ## Angular
 
-  * (Directives)[examples/angular/NgModelSpec.js]
+- (Directives)[examples/angular/NgModelSpec.js]
