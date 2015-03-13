@@ -1,6 +1,6 @@
-# jasmine
+# Jasmine cookbook
 
-This is a collection of recipes that can be used for testing different types of Javascript features, both for
+This is a collection of Jasmine recipes that can be used for testing different types of Javascript features, both for
 vanilla Javascript and some of the frameworks.
 
 ## Vanilla Javascript
