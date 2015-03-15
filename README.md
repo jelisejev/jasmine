@@ -1,17 +1,21 @@
-# jasmine
+# Jasmine cookbook
 
-This is a collection of recipes that can be used for testing different types of Javascript features, both for
+This is a collection of Jasmine recipes that can be used for testing different types of Javascript features, both for
 vanilla Javascript and some of the frameworks.
 
 ## Vanilla Javascript
 
-- (Timeouts)[examples/vanilla/TimeoutSpec.js]
+- [Timeouts](examples/vanilla/TimeoutSpec.js)
 
 ## jQuery
 
-- (Animations)[examples/jquery/AnimationSpec.js]
-- (Element dimensions)[examples/jquery/DimensionSpec.js]
-- (Element visibility)[examples/jquery/VisibleSelectorSpec.js]
+- [Animations](examples/jquery/AnimationSpec.js)
+- [Element dimensions](examples/jquery/DimensionSpec.js)
+- [Element visibility](examples/jquery/VisibleSelectorSpec.js)
+
+## Bootstrap
+
+- [Bootstrap components](examples/bootstrap/DropdownSpec.js)
 
 ## Angular
 
