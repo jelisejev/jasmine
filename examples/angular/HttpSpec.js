@@ -7,7 +7,8 @@ describe('Http', function() {
     }));
 
     it('should trigger a callback when the request is complete', function() {
-        $httpBackend.whenGET('http://google.com').respond(200, '');
+        // expectGET will trigger an error if the request is not performed
+        $httpBackend.expectGET('http://google.com').respond(200, '');
 
         var complete = false;
         $http.get('http://google.com').success(function() {
