@@ -20,4 +20,5 @@ vanilla Javascript and some of the frameworks.
 ## Angular
 
 - [Directives](examples/angular/NgModelSpec.js)
+- [Ajax](examples/angular/HttpSpec.js)
 - [Promises](examples/angular/PromiseSpec.js)
