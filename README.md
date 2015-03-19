@@ -20,5 +20,6 @@ vanilla Javascript and some of the frameworks.
 ## Angular
 
 - [Directives](examples/angular/DirectiveSpec.js)
+- [Services](examples/angular/ServiceSpec.js)
 - [Ajax](examples/angular/HttpSpec.js)
 - [Promises](examples/angular/PromiseSpec.js)
