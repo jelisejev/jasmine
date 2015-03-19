@@ -1,4 +1,4 @@
-describe('ng-model', function() {
+describe('ng-model directive', function() {
     var $compile, $rootScope;
 
     beforeEach(inject(function(_$compile_, _$rootScope_) {
