@@ -20,4 +20,12 @@ describe('Http', function() {
 
         expect(complete).toEqual(true);
     });
+
+    afterEach(function() {
+        // make sure that no expectation was left unsatisfied
+        $httpBackend.verifyNoOutstandingExpectation();
+
+        // make sure there are no requests that haven't been flushed
+        $httpBackend.verifyNoOutstandingRequest();
+    })
 });
