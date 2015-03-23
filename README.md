@@ -18,6 +18,7 @@ karma start karma.conf.js
 
 ### jQuery
 
+- [Key events](examples/jquery/KeyEventSpec.js)
 - [Animations](examples/jquery/AnimationSpec.js)
 - [Element dimensions](examples/jquery/DimensionSpec.js)
 - [Element visibility](examples/jquery/VisibleSelectorSpec.js)
