@@ -6,9 +6,7 @@ describe('timeout', function() {
         jasmine.clock().install();
 
         var spy = jasmine.createSpy();
-        setTimeout(function() {
-            spy();
-        }, 200);
+        setTimeout(spy, 200);
 
         expect(spy).not.toHaveBeenCalled();
         jasmine.clock().tick(200);

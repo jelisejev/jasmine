@@ -19,6 +19,7 @@ vanilla Javascript and some of the frameworks.
 
 ## Angular
 
+- [Timeout](examples/angular/TimeoutSpec.js)
 - [Directives](examples/angular/DirectiveSpec.js)
 - [Services](examples/angular/ServiceSpec.js)
 - [Ajax](examples/angular/HttpSpec.js)
