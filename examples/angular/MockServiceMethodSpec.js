@@ -1,4 +1,4 @@
-angular.module('test', [])
+angular.module('MockServiceMethodSpec', [])
     .factory('navigator', function($location) {
         return {
             goTo: function(url) {
@@ -11,7 +11,7 @@ describe('navigator service', function() {
     var navigator;
     var $location;
 
-    beforeEach(module('test'));
+    beforeEach(module('MockServiceMethodSpec'));
 
     beforeEach(inject(function(_navigator_, _$location_) {
         navigator = _navigator_;

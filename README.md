@@ -30,6 +30,7 @@ karma start karma.conf.js
 
 ### Angular
 
+- [Controllers and views](examples/angular/ControllerViewSpec.js)
 - [Timeout](examples/angular/TimeoutSpec.js)
 - [Directives](examples/angular/DirectiveSpec.js)
 - [Mocking service methods](examples/angular/MockServiceMethodSpec.js)
