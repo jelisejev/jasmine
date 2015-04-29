@@ -9,10 +9,10 @@ describe('Promise', function() {
     it('should call then when it\'s resolved', function() {
         var deferred = $q.defer();
 
-        var resolved = false;
+        var spy = jasmine.createSpy();
         var promise = deferred.promise;
         promise.then(function() {
-            resolved = true;
+            spy();
         });
 
         deferred.resolve();
@@ -20,6 +20,6 @@ describe('Promise', function() {
         // $digest needs to be called for the "then" function to be executed
         $rootScope.$digest();
 
-        expect(resolved).toEqual(true);
+        expect(spy).toHaveBeenCalled();
     });
 });

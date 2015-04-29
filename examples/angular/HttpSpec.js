@@ -10,15 +10,15 @@ describe('Http', function() {
         // expectGET will trigger an error if the request is not performed
         $httpBackend.expectGET('http://google.com').respond(200, '');
 
-        var complete = false;
+        var spy = jasmine.createSpy();
         $http.get('http://google.com').success(function() {
-            complete = true;
+            spy();
         });
 
         // flush() returns the response
         $httpBackend.flush();
 
-        expect(complete).toEqual(true);
+        expect(spy).toHaveBeenCalled();
     });
 
     afterEach(function() {
