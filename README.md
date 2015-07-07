@@ -37,3 +37,7 @@ karma start karma.conf.js
 - [Mocking whole services](examples/angular/MockServiceSpec.js)
 - [Ajax](examples/angular/HttpSpec.js)
 - [Promises](examples/angular/PromiseSpec.js)
+
+#### Weird cases
+
+- [Clicking on a radio button](examples/angular/RadioButtonClickSpec.js)
