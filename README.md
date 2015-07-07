@@ -38,4 +38,4 @@ karma start karma.conf.js
 - [Ajax](examples/angular/HttpSpec.js)
 - [Promises](examples/angular/PromiseSpec.js)
 - Weird cases
-  cor- [Clicking on a radio button](examples/angular/RadioButtonClickSpec.js)
+  - [Clicking on a radio button](examples/angular/RadioButtonClickSpec.js)
