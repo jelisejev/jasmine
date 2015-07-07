@@ -8,7 +8,7 @@ describe('radio buttons', function() {
 
     function compile(scope) {
         var elem = '<input type="radio" name="test" ng-model="value" value="0" />'
-            + '<input type="radio" name="test" ng-model="value" value="1" checked />';
+            + '<input type="radio" name="test" ng-model="value" value="1" />';
 
         elem = $compile(elem)(scope);
         scope.$digest();
