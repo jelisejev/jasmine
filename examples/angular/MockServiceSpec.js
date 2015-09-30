@@ -2,10 +2,10 @@ describe('Service mocks', function() {
     var $routeParams;
 
     // services need to be mocked before calling inject()
-    beforeEach(module(function($provide) {
-        $provide.value('$routeParams', {
+    beforeEach(module({
+        '$routeParams': {
             name: 'Jasmine'
-        });
+        }
     }));
 
     beforeEach(inject(function(_$routeParams_) {
